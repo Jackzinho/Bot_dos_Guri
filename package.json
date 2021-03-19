@@ -1,0 +1,23 @@
+{
+  "name": "bot-disc",
+  "version": "1.0.0",
+  "description": "Bot dos guri",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --trace-warnings src/index",
+    "dev": "nodemon --ignore src/*.json --trace-warnings src/index"
+  },
+  "author": "Jacks <matheusrjacks@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^12.5.1",
+    "dotenv": "^8.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.22.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1",
+    "nodemon": "^2.0.7"
+  }
+}
